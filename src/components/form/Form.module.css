@@ -1,0 +1,58 @@
+.form_container {
+	max-width: 500px;
+	margin: 2em auto 0;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 50px;
+}
+
+.form_container h1 {
+	text-align: center;
+}
+
+.form_container input[type='submit'] {
+	border-radius: 8px;
+	background-color: #25b456;
+	color: #fff;
+	border: none;
+	min-width: 100px;
+	min-height: 2.5em;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.form_container input[type='submit']:hover {
+	background-color: #1c8a42;
+}
+
+.form_container p {
+	margin-top: 1em;
+}
+
+.form_container p a {
+	color: #16479d;
+	font-weight: bold;
+}
+
+.form_container img {
+	display: flex;
+	margin: 0 auto 3em;
+}
+
+/* form de pets */
+.preview_pet_images {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.preview_pet_images img {
+	width:  100px;
+	height: 100px;
+	margin-left: 1em;
+}
