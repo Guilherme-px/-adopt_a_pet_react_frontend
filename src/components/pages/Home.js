@@ -12,7 +12,6 @@ function Home() {
 
 		axios.get('/pets')
 			.then((response) => {
-				console.log(response.data.pets);
 				setPets(response.data.pets);
 			});
 

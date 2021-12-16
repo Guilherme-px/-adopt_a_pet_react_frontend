@@ -29,7 +29,7 @@ function Navbar() {
 			</div>
 			<ul>
 				<li>
-					<Link to="/">Adotar</Link>
+					<Link to="/">Home</Link>
 				</li>
 				{category.length > 0 && (
 					category.map((c, index) => (

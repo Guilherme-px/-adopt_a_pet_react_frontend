@@ -18,8 +18,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #fff;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	background-color: #262626;
 }
 
 .pet_card_image {
@@ -31,7 +30,7 @@
 }
 
 .pet_card h3 {
-	color: #16479d;
+	color: #fa4ffa;
 	margin-bottom: 1em;
 	font-size: 1.5em;
 	padding: 8px;
@@ -39,19 +38,19 @@
 
 .pet_card p, 
 .pet_card span {
-	color: black;
+	color: #fff;
 	margin-bottom: 1em;
 	font-size: 1em;
 }
 
 .pet_card a {
 	text-decoration: none;
-	background-color: #ffd400;
-	color: #16479d;
+	background-color: #fa4ffa;
+	color: #fff;
 	font-weight: bold;
 	cursor: pointer;
 	transition: 0.5s;
-	border-radius: 5px;
+	border-radius: 20px;
 	font-size: 1.2em;
 	padding: 12px;
 	max-width: 60%;
@@ -60,8 +59,8 @@
 }
 
 .pet_card a:hover {
-	background-color: #16479d;
-	color: #fff;
+	background-color: #262626;
+	color: #fa4ffa;
 }
 
 .adopted_text {

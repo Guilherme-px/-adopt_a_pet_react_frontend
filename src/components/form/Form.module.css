@@ -1,9 +1,9 @@
 .form_container {
 	max-width: 500px;
 	margin: 2em auto 0;
-	background-color: #fff;
+	background-color: #262626;
 	border-radius: 15px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	box-shadow: 8px 9px 30px 7px rgba(0,0,0,0.75);
 	padding: 50px;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .form_container input[type='submit'] {
-	border-radius: 8px;
-	background-color: #25b456;
+	border-radius: 15px;
+	background: linear-gradient(to right, #fa4ffa, #ffbfff);
 	color: #fff;
 	border: none;
 	min-width: 100px;
@@ -26,11 +26,12 @@
 }
 
 .form_container input[type='submit']:hover {
-	background-color: #1c8a42;
+	color: #262626;
 }
 
 .form_container p {
 	margin-top: 1em;
+	color: #fff;
 }
 
 .form_container p a {
