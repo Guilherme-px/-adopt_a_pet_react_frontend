@@ -12,17 +12,17 @@
 .petlist_header a {
 	text-decoration: none;
 	background-color: #fff;
-	color: #16479d;
+	color: #3A53F7;
 	font-weight: bold;
 	cursor: pointer;
 	transition: 0.5s;
 	padding: 0.5em 0.8em;
 	border-radius: 5px;
-	border: 2px solid #16479d;
+	border: 2px solid #3A53F7;
 }
 
 .petlist_header a:hover {
-	background-color: #16479d;
+	background-color: #3A53F7;
 	color: #fff;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .petlist_row {
-	border-bottom: 1px solid #16479d;
+	border-bottom: 1px solid #3A53F7;
 	padding: 1em;
 	margin: 1em;
 	display: flex;
@@ -55,14 +55,14 @@
 .actions a,
 .actions button {
 	text-decoration: none;
-	background-color: #16479d;
+	background-color: #3A53F7;
 	color: #fff;
 	font-weight: bold;
 	cursor: pointer;
 	transition: 0.5s;
 	padding: 7px 12px;
 	border-radius: 5px;
-	border: 2px solid #16479d;
+	border: 2px solid #3A53F7;
 	font-size: 12px;
 	margin-left: 1em;
 }
@@ -70,17 +70,17 @@
 .actions a:hover,
 .actions button:hover {
 	background-color: transparent;
-	color: #16479d;
+	color: #3A53F7;
 }
 
 .conclude.btn {
-	color: #25b456;
-	border-color: #25b456;
+	color: #3AF780;
+	border-color: #3AF780;
 }
 
 .conclude.btn:hover {
 	color: #fff;
-	background-color: #25b456;
+	background-color: #3AF780;
 }
 
 /* myadoptions */

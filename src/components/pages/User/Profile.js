@@ -59,7 +59,7 @@ function Profile() {
 			return msg.response.data;
 		});
 		
-		setFlashMessage(data.msg, msgtype);
+		setFlashMessage(data, msgtype);
 	}
 	
 	return (

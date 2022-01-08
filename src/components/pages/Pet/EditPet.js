@@ -56,7 +56,7 @@ function EditPet() {
 				return msg.response.data;
 			});
 
-		setFlashMessage(data.msg, msgType);
+		setFlashMessage(data, msgType);
 	}
 
 	return (

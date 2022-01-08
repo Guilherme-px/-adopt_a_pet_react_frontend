@@ -44,7 +44,7 @@ function MyPets() {
 				return msg.response.data;
 			});
 
-		setFlashMessage(data.msg, msgType);
+		setFlashMessage(data, msgType);
 	}
 
 	async function concludeAdoption(id) {

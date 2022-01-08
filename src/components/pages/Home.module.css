@@ -18,7 +18,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #262626;
+	background-color: #F73AB2;
 }
 
 .pet_card_image {
@@ -30,7 +30,7 @@
 }
 
 .pet_card h3 {
-	color: #fa4ffa;
+	color: #F7DE3A;
 	margin-bottom: 1em;
 	font-size: 1.5em;
 	padding: 8px;
@@ -38,15 +38,15 @@
 
 .pet_card p, 
 .pet_card span {
-	color: #fff;
+	color: #F7DE3A;
 	margin-bottom: 1em;
 	font-size: 1em;
 }
 
 .pet_card a {
 	text-decoration: none;
-	background-color: #fa4ffa;
-	color: #fff;
+	background-color: #F7DE3A;
+	color: #3A53F7;
 	font-weight: bold;
 	cursor: pointer;
 	transition: 0.5s;
@@ -59,8 +59,8 @@
 }
 
 .pet_card a:hover {
-	background-color: #262626;
-	color: #fa4ffa;
+	background-color: #F73AB2;
+	color: #F7DE3A;
 }
 
 .adopted_text {

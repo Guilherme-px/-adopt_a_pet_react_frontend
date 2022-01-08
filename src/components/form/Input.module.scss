@@ -10,10 +10,10 @@
 input {
 	width: 100%;
 	border: 0;
-	border-bottom: 2px solid #fa4ffa;
+	border-bottom: 2px solid #F7DE3A;
 	outline: 0;
 	font-size: 1.1em;
-	color: #fff;
+	color: #222;
 	padding: 7px 0;
 	background: transparent;
 	transition: border-color 0.2s;
@@ -35,7 +35,7 @@ label {
 	display: block;
 	transition: 0.2s;
 	font-size: 1em;
-	color: #fff;
+	color: #F7DE3A;
 }
 
 input:focus {
@@ -45,13 +45,13 @@ input:focus {
 		display: block;
 		transition: 0.2s;
 		font-size: 1em;
-		color: #fff;
 		font-weight: 700;
+		color: #222;
 	}
 	padding-bottom: 6px;
 	font-weight: 700;
 	border-width: 2px;
-	border-image: linear-gradient(to right, #fa4ffa, #ffbfff);
+	border-image: linear-gradient(to right, #222, #555);
 	border-image-slice: 1;
 }
 /* reset input */

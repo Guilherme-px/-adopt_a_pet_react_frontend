@@ -13,12 +13,12 @@
 
 .success {
 	color: #000;
-	background-color: #0cb132;
-	border-color: #005313;
+	background-color: #6EF73A;
+	border-color: #002408;
 }
 
 .error {
 	color: #fff;
-	background-color: #be0315;
-	border-color: #420007;
+	background-color: #F73C3A;
+	border-color: #250004;
 }

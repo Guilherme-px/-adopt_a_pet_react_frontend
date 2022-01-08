@@ -1,7 +1,7 @@
 .form_container {
 	max-width: 500px;
 	margin: 2em auto 0;
-	background-color: #262626;
+	background-color: #F73AB2;
 	border-radius: 15px;
 	box-shadow: 8px 9px 30px 7px rgba(0,0,0,0.75);
 	padding: 50px;
@@ -13,8 +13,8 @@
 
 .form_container input[type='submit'] {
 	border-radius: 15px;
-	background: linear-gradient(to right, #fa4ffa, #ffbfff);
-	color: #fff;
+	background: linear-gradient(to right, #F7DE3A, #fff29b);
+	color: #3A53F7;
 	border: none;
 	min-width: 100px;
 	min-height: 2.5em;
@@ -23,20 +23,6 @@
 	font-size: 1.1em;
 	font-weight: bold;
 	margin-top: 1em;
-}
-
-.form_container input[type='submit']:hover {
-	color: #262626;
-}
-
-.form_container p {
-	margin-top: 1em;
-	color: #fff;
-}
-
-.form_container p a {
-	color: #16479d;
-	font-weight: bold;
 }
 
 .form_container img {

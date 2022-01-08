@@ -34,7 +34,7 @@ function PetDetails() {
 				return msg.response.data;
 			});
 		
-		setFlashMessage(data.msg, msgType);
+		setFlashMessage(data, msgType);
 	}
 
 	return (

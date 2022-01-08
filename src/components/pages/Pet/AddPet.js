@@ -48,7 +48,7 @@ function AddPet() {
 				return msg.response.data;
 			});
 
-		setFlashMessage(data.msg, msgType);
+		setFlashMessage(data, msgType);
 
 		if (msgType !== 'error') {
 			history.push('/pets/mypets');
